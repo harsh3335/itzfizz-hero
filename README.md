@@ -1,5 +1,5 @@
 # Welcome Itzfizz – Scroll-Driven Hero
-
+🔗 **Live demo:** https://harsh3335.github.io/itzfizz-hero/
 Scroll-linked hero animation: a car drives across the screen as you scroll, revealing the headline behind it and lighting up the impact stats.
 
 **Stack:** Next.js (React, static export) · Tailwind CSS · GSAP + ScrollTrigger · HTML/CSS/JS
