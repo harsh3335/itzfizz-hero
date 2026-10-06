@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #08080c; color: #fff; overflow-x: hidden; }
+.grid-bg {
+  background-image: linear-gradient(#ffffff0d 1px, transparent 1px),
+                    linear-gradient(90deg, #ffffff0d 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.dashes { background-image: repeating-linear-gradient(90deg, #ffffff55 0 44px, transparent 44px 88px); }
+.glass { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(8px); }
+.will { will-change: transform, opacity; }
